@@ -1,0 +1,23 @@
+.authForm {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  .authForm__fieldset {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    .authForm__label {
+      font-size: 14px;
+    }
+    .authForm__input {
+      border: 1px solid black;
+      border-radius: 5px;
+    }
+  }
+  .authForm__submitBtn {
+    width: 100px;
+    align-self: center;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+}

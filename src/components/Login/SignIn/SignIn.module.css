@@ -1,0 +1,25 @@
+.authForm {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.authForm .authForm__fieldset {
+  border: none;
+  display: flex;
+  justify-content: space-between;
+}
+.authForm .authForm__fieldset .authForm__label {
+  font-size: 14px;
+}
+.authForm .authForm__fieldset .authForm__input {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.authForm .authForm__submitBtn {
+  width: 100px;
+  align-self: center;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=SignIn.module.css.map */
